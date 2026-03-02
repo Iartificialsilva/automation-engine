@@ -7,8 +7,8 @@ load_dotenv()
 # --- CONFIGURAÇÕES DO GATEWAY (OpenClaw) ---
 # Prioridade: Variável de ambiente -> Valor padrão
 TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "")
-OPENCLAW_API_KEY = os.getenv("OPENCLAW_API_KEY", "cmdop_b8c89901621f30b808c6fa8fff2cf2ad460584abc9792374")
-OPENCLAW_SERVER = os.getenv("OPENCLAW_SERVER", "127.0.0.1:18789")
+OPENCLAW_API_KEY = os.getenv("OPENCLAW_API_KEY", "")
+OPENCLAW_SERVER = os.getenv("OPENCLAW_SERVER", "")
 
 # --- CONFIGURAÇÕES DE IA / LLM ---
 DEFAULT_MODEL = "google/gemini-3-flash"
